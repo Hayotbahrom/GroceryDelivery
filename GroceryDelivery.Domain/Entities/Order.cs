@@ -9,6 +9,6 @@ public class Order:Auditable
     public long DriverId { get; set; }
     public string Location { get; set; }
     public DateTime DeliveryTime { get; set; } = DateTime.UtcNow;
-    public string TotalAmount { get; set; }
-    public string TotalFee { get; set; }
+    public decimal TotalAmount { get; set; }
+    public decimal TotalFee { get; set; }
 }

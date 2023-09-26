@@ -32,7 +32,7 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity :Auditable
     }
     public async Task<bool> DeleteAsynch(long id)
     {
-        var entities = await SelectAllAsynch();
+        var entities = await SelectAllAsync();
         var requiredEntity = entities.FirstOrDefault(e => e.Id == id);
         entities.Remove(requiredEntity);
         var str = JsonConvert.SerializeObject(entities, Formatting.Indented);
@@ -40,38 +40,38 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity :Auditable
         return true;
     }
 
-    public async Task<List<TEntity>> SelectAllAsynch()
+    public async Task<List<TEntity>> SelectAllAsync()
     {
         var str =await File.ReadAllTextAsync(Path);
         var entities = JsonConvert.DeserializeObject<List<TEntity>>(str);
         return entities;
     }
 
-    public async Task<TEntity> SelectById(long id)
-        => (await SelectAllAsynch()).FirstOrDefault(e => e.Id == id);
+    public async Task<TEntity> SelectByIdAsync(long id)
+        => (await SelectAllAsync()).FirstOrDefault(e => e.Id == id);
 
-    public async Task<TEntity> InsertAsynch(TEntity entity)
+    public async Task<TEntity> InsertAsync(TEntity entity)
     {
-        var entities = await SelectAllAsynch();
+        var entities = await SelectAllAsync();
         entities.Add(entity);
         var str = JsonConvert.SerializeObject(entities);
         await File.WriteAllTextAsync(Path, str);
         return entity;
     }
 
-    public async Task<TEntity> UpdateAsynch(TEntity entity)
+    public async Task<TEntity> UpdateAsync(TEntity entity)
     {
-        var entities = await SelectAllAsynch();
+        var entities = await SelectAllAsync();
         await File.WriteAllTextAsync(Path, "[]");
 
         foreach (var item in entities)
         {
             if (item.Id == entity.Id)
             {
-                await InsertAsynch(entity);
+                await InsertAsync(entity);
                 continue;
             }
-            await InsertAsynch(item);
+            await InsertAsync(item);
         }
         return entity;
     }

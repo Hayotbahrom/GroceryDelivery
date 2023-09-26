@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GroceryDelivery.Service/1.0.0": {
+        "dependencies": {
+          "GroceryDelivery.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GroceryDelivery.Service.dll": {}
+        }
+      },
+      "GroceryDelivery.Domain/1.0.0": {
+        "runtime": {
+          "GroceryDelivery.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GroceryDelivery.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GroceryDelivery.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
