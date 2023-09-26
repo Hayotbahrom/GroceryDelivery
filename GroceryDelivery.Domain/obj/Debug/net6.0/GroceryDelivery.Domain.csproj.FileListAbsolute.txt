@@ -1,0 +1,11 @@
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\bin\Debug\net6.0\GroceryDelivery.Domain.deps.json
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\bin\Debug\net6.0\GroceryDelivery.Domain.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\bin\Debug\net6.0\GroceryDelivery.Domain.pdb
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\GroceryDelivery.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\GroceryDelivery.Domain.AssemblyInfoInputs.cache
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\GroceryDelivery.Domain.AssemblyInfo.cs
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\GroceryDelivery.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\GroceryDelivery.Domain.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\refint\GroceryDelivery.Domain.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\GroceryDelivery.Domain.pdb
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Domain\obj\Debug\net6.0\ref\GroceryDelivery.Domain.dll
