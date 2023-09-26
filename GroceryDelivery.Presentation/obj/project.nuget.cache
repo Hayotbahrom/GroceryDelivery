@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IYwcFUOuOW8a4tBsuUvOBrk/pCQTaOsse9WS0F9RNWlXKh34MtPocHa3e2TJ2T4dWjTu7+EHX8xFvCEaxizE/Q==",
+  "dgSpecHash": "daVoQAoMkNkKUoxAXYBiCVIe4UKl7vLJ1X42xrDwPZZ7de89IZAw9qRvVSjvKY2u/rAzOMK9BYmi9XmpeQSkSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Presentation\\GroceryDelivery.Presentation.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hayotbahrom\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

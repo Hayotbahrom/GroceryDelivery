@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GroceryDelivery.Domain\GroceryDelivery.Domain.csproj" />
+    <ProjectReference Include="..\GroceryDelivery.Service\GroceryDelivery.Service.csproj" />
   </ItemGroup>
 
 </Project>

@@ -16,3 +16,8 @@ C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presen
 C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\bin\Debug\net6.0\GroceryDelivery.Domain.pdb
 C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\obj\Debug\net6.0\GroceryDelivery.Presentation.csproj.AssemblyReference.cache
 C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\obj\Debug\net6.0\GroceryDelivery.Presentation.csproj.CopyComplete
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\bin\Debug\net6.0\GroceryDelivery.Data.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\bin\Debug\net6.0\GroceryDelivery.Service.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\bin\Debug\net6.0\GroceryDelivery.Service.pdb
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Presentation\bin\Debug\net6.0\GroceryDelivery.Data.pdb

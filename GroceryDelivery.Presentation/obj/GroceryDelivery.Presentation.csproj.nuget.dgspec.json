@@ -4,6 +4,71 @@
     "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Presentation\\GroceryDelivery.Presentation.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Data\\GroceryDelivery.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Data\\GroceryDelivery.Data.csproj",
+        "projectName": "GroceryDelivery.Data",
+        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Data\\GroceryDelivery.Data.csproj",
+        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -83,6 +148,71 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj"
+              },
+              "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Service\\GroceryDelivery.Service.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Service\\GroceryDelivery.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Service\\GroceryDelivery.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Service\\GroceryDelivery.Service.csproj",
+        "projectName": "GroceryDelivery.Service",
+        "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Service\\GroceryDelivery.Service.csproj",
+        "packagesPath": "C:\\Users\\Hayotbahrom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hayotbahrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Data\\GroceryDelivery.Data.csproj": {
+                "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Data\\GroceryDelivery.Data.csproj"
+              },
               "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj": {
                 "projectPath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\GroceryDelivery.Domain\\GroceryDelivery.Domain.csproj"
               }

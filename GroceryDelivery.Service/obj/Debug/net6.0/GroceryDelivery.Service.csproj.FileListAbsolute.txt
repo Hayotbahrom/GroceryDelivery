@@ -13,3 +13,5 @@ C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Servic
 C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Service\obj\Debug\net6.0\refint\GroceryDelivery.Service.dll
 C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Service\obj\Debug\net6.0\GroceryDelivery.Service.pdb
 C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Service\obj\Debug\net6.0\ref\GroceryDelivery.Service.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Service\bin\Debug\net6.0\GroceryDelivery.Data.dll
+C:\Users\Hayotbahrom\Desktop\GroceryDelivery.Presentation\GroceryDelivery.Service\bin\Debug\net6.0\GroceryDelivery.Data.pdb

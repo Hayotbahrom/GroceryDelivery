@@ -4,9 +4,10 @@ namespace GroceryDelivery.Presentation;
 
 public class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        File.WriteAllText(DataPath.DriverDb, "salomat");
+        UI uI = new UI();
+        await uI.StartAsync();
     }
 }

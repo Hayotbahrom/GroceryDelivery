@@ -1,1 +1,1 @@
-﻿
+[{"FirstName":"ali","LastName":"vali","Email":"ali@gmail.com","Password":"1111","Address":"andijan","Location":null,"Id":1,"CreatedAt":"2023-09-26T15:10:43.8841996+05:00","UpdatedAt":null}]
