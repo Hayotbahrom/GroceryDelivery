@@ -418,7 +418,8 @@ Successfully UPDATED!!
                                         break;
                                     case "2":
                                         {
-                                            var results = await driverService.GetAllAsync(); Console.WriteLine("+------+--------------+-----------+------------------+");
+                                            var results = await driverService.GetAllAsync();
+                                            Console.WriteLine("+------+--------------+-----------+------------------+");
                                             Console.WriteLine("|  ID  |  First Name  |  Lastname |     Vehicle      |");
                                             Console.WriteLine("+------+--------------+-----------+------------------+");
 
@@ -435,16 +436,16 @@ Successfully UPDATED!!
                                         {
                                             OrderService orderService = new OrderService();
                                             var results = await orderService.GetAllAsync();
-                                            Console.WriteLine("+------+-----------+------------+----------------------+--------------------+--------------------+");
-                                            Console.WriteLine("|  id  | ProductID | customerID |      DriverID       |      Location      |    Total Amount    |    Total Fee    |");
-                                            Console.WriteLine("+------+-----------+------------+----------------------+--------------------+--------------------+");
+                                            Console.WriteLine("+------+-----------+------------+----------------------+--------------------+--------------------+-----------------+");
+                                            Console.WriteLine("|  id  | ProductID | customerID |      DriverID        |      Location      |    Total Amount    |    Total Fee    |");
+                                            Console.WriteLine("+------+-----------+------------+----------------------+--------------------+--------------------+-----------------+");
 
                                             foreach (var result in results)
                                             {
                                                 Console.WriteLine($"| {result.Id,4} | {result.ProductId,-9} | {result.CustomerId,-10} | {result.DriverId,-20} | {result.Location,-18} | {result.TotalAmount,-18} | {result.TotalFee,-15} |");
                                             }
 
-                                            Console.WriteLine("+------+-----------+------------+----------------------+--------------------+--------------------+");
+                                            Console.WriteLine("+------+-----------+------------+----------------------+--------------------+--------------------+-----------------+");
 
                                         }
                                         break;

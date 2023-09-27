@@ -32,7 +32,8 @@ namespace GroceryDelivery.Service.Services
             {
                 Id = _id,
                 FirstName = dto.FirsName,
-                LastName = dto.Lastname
+                LastName = dto.Lastname,
+                Vehicle = dto.Vehicle
             };
 
             await driverRepository.InsertAsync(driverForInsert);
@@ -70,7 +71,8 @@ namespace GroceryDelivery.Service.Services
                 {
                     Id = driver.Id,
                     FirsName = driver.FirstName,
-                    Lastname = driver.LastName
+                    Lastname = driver.LastName,
+                    Vehicle = driver.Vehicle
                 };
                 mappedDrivers.Add(item);
             }
