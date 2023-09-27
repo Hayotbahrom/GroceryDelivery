@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "teUaJ6Ub5eux0AnAtd/QHxDBgErNeEq9EyonQLL7xfjIj4qvft/I6U+g6M2ZpHT5+q0iuWRitNHzwzR3ulSYsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hayotbahrom\\Desktop\\GroceryDelivery.Presentation\\src\\GroceryDelivery.Service\\GroceryDelivery.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hayotbahrom\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
