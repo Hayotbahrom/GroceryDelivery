@@ -81,14 +81,15 @@ namespace GroceryDelivery.Service.Services
         public async Task<DriverForResultDto> GetByIdAsync(long id)
         {
             var driver = await driverRepository.SelectByIdAsync(id);
-            if (driver == null)
+            if (driver is null)
                 throw new CustomException(404, "driver is not found");
 
             var result = new DriverForResultDto()
             {
                 Id = id,
                 FirsName= driver.FirstName,
-                Lastname = driver.LastName
+                Lastname = driver.LastName,
+                Vehicle = driver.Vehicle
             };
 
             return result;
@@ -118,6 +119,16 @@ namespace GroceryDelivery.Service.Services
             };
 
             return result;
+        }
+
+        public async Task<bool> SignInCheckAsync(string firstname, string lastname)
+        {
+            var requiredDriver = (await driverRepository.SelectAllAsync()).
+                FirstOrDefault(d => d.FirstName == firstname && d.LastName == lastname);
+            if (requiredDriver == null)
+                return false;
+
+            return true;
         }
         public async Task GenerateIdAsync()
         {

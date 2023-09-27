@@ -15,7 +15,7 @@ namespace GroceryDelivery.Service.Services
     {
         private long _id;
         private readonly Repository<Customer> customerRepository = new Repository<Customer>();
-
+        
         public async Task<CustomerForResultDto> CreateAsync(CustomerForCreationDto dto)
         {
             var customer = (await customerRepository.SelectAllAsync()).
@@ -103,30 +103,15 @@ namespace GroceryDelivery.Service.Services
 
             return result;
         }
-        public async Task<CustomerForResultDto> SignInAsync(string email, string password)
+        public async Task<long> SignInAsync(string email, string password)
         {
             var customers = await customerRepository.SelectAllAsync();
             var requiresCustomer = customers.FirstOrDefault(c => c.Email == email && c.Password == password);
 
-            if (requiresCustomer != null)
-            {
-                var result = new CustomerForResultDto()
-                {
-                    Id = requiresCustomer.Id,
-                    FirstName = requiresCustomer.FirstName,
-                    Lastname = requiresCustomer.LastName,
-                    Email = requiresCustomer.Email,
-                    Password = requiresCustomer.Password,
-                    Address = requiresCustomer.Address
-                };
-                return result;
-            }
+            if (requiresCustomer != null)  
+                return requiresCustomer.Id;
             else
-            {
-                throw new CustomException(404, "Customer not found");
-            }
-
-
+                return 0;
         }
 
         public async Task<CustomerForResultDto> UpdateAsync(CustomerForUpdateDto dto)
@@ -139,7 +124,7 @@ namespace GroceryDelivery.Service.Services
             {
                 Id = dto.Id,
                 FirstName = dto.FirtName,
-                LastName = dto.FirtName,
+                LastName = dto.Lastname,
                 Email = dto.Email,
                 Password = dto.Password,
                 Address = dto.Address,

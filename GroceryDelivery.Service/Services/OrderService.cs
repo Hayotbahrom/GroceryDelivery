@@ -1,6 +1,7 @@
 ﻿using GroceryDelivery.Data.Repositoris;
 using GroceryDelivery.Domain.Entities;
 using GroceryDelivery.Service.DTOs;
+using GroceryDelivery.Service.Exceptions;
 using GroceryDelivery.Service.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,7 +15,52 @@ namespace GroceryDelivery.Service.Services
     {
         private long _id;
         private readonly Repository<Order> orderRepository = new Repository<Order>();
+        private readonly Repository<Driver> driverRepository = new Repository<Driver>();
+        private readonly Repository<Product> productRepository = new Repository<Product>();
+        public async Task<long> RandomDriverIdAsync()
+        {
+            var drivers = await driverRepository.SelectAllAsync();
+            if (drivers is not null) 
+            {
+                long result= drivers.Max(d => d.Id);
+                return result;
+            }
 
+            return 0;
+        }
+
+        public async Task<OrderForResultDto> CreateAsync(OrderForCreationDto dto)
+        {
+            decimal totalFeePrice = (await productRepository.SelectByIdAsync(dto.ProductId)).Price;
+            await GenerateIdAsync();
+
+            var orderForInsert = new Order()
+            {
+                Id = _id,
+                ProductId = dto.ProductId,
+                CustomerId = dto.CustomerId,
+                DriverId = dto.DriverId,
+                Location = dto.Location,
+                TotalAmount = dto.TotalAmount,
+                TotalFee = (dto.TotalAmount*totalFeePrice),
+                CreatedAt = DateTime.Now,
+            };
+
+            await orderRepository.InsertAsync(orderForInsert);
+
+            var result = new OrderForResultDto()
+            {
+                Id = _id,
+                ProductId = dto.ProductId,
+                CustomerId = dto.CustomerId,
+                DriverId = dto.DriverId,
+                Location = dto.Location,
+                TotalAmount = dto.TotalAmount,
+                TotalFee = dto.TotalAmount*totalFeePrice
+            };
+
+            return result;
+        }
         public async Task<List<OrderForResultDto>> GetAllAsync()
         {
             var orders = await orderRepository.SelectAllAsync();

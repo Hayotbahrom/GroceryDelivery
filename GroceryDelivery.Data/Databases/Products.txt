@@ -1,1 +1,29 @@
-salomat
+[
+  {
+    "CategoryId": 1,
+    "Name": "carrot",
+    "Price": 4500.0,
+    "Quantity": 10000.0,
+    "Id": 1,
+    "CreatedAt": "2023-09-27T07:19:45.8497584Z",
+    "UpdatedAt": null
+  },
+  {
+    "CategoryId": 2,
+    "Name": "milk",
+    "Price": 5000.0,
+    "Quantity": 800.0,
+    "Id": 2,
+    "CreatedAt": "2023-09-27T07:20:28.744884Z",
+    "UpdatedAt": null
+  },
+  {
+    "CategoryId": 1,
+    "Name": "onion",
+    "Price": 300.0,
+    "Quantity": 900.0,
+    "Id": 3,
+    "CreatedAt": "2023-09-27T07:21:27.7058104Z",
+    "UpdatedAt": null
+  }
+]

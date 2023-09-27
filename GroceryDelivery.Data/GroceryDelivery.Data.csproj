@@ -7,14 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Databases\Categories.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Databases\Categories.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 

@@ -54,7 +54,7 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity :Auditable
     {
         var entities = await SelectAllAsync();
         entities.Add(entity);
-        var str = JsonConvert.SerializeObject(entities);
+        var str = JsonConvert.SerializeObject(entities, Formatting.Indented);
         await File.WriteAllTextAsync(Path, str);
         return entity;
     }

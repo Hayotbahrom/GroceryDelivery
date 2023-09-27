@@ -2,9 +2,9 @@
 
 public enum Vehicle :int
 {
-    Track,
+    track =1,
     bycicle,
     motocycle,
-    Train, 
-    Airlane
+    train, 
+    airlane
 }

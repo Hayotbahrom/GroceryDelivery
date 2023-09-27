@@ -1,1 +1,14 @@
-﻿
+[
+  {
+    "Name": "vegetables",
+    "Id": 1,
+    "CreatedAt": "2023-09-27T07:16:53.5872461Z",
+    "UpdatedAt": null
+  },
+  {
+    "Name": "dairy",
+    "Id": 2,
+    "CreatedAt": "2023-09-27T07:17:29.4254715Z",
+    "UpdatedAt": null
+  }
+]

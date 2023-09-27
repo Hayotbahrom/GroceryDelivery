@@ -1,1 +1,50 @@
-salomat
+[
+  {
+    "FirstName": "qalandar",
+    "LastName": "samandarov",
+    "Vehicle": 0,
+    "Id": 1,
+    "CreatedAt": "2023-09-27T04:33:00.7492613Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "dadajon",
+    "LastName": "otajonov",
+    "Vehicle": 0,
+    "Id": 2,
+    "CreatedAt": "2023-09-27T04:39:58.0980085Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "aa",
+    "LastName": "aa",
+    "Vehicle": 0,
+    "Id": 3,
+    "CreatedAt": "2023-09-27T08:09:29.4303398Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "qq",
+    "LastName": "qq",
+    "Vehicle": 0,
+    "Id": 4,
+    "CreatedAt": "2023-09-27T08:13:31.8702902Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "zz",
+    "LastName": "zz",
+    "Vehicle": 0,
+    "Id": 5,
+    "CreatedAt": "2023-09-27T08:17:21.691346Z",
+    "UpdatedAt": null
+  },
+  {
+    "FirstName": "dd",
+    "LastName": "dd",
+    "Vehicle": 0,
+    "Id": 6,
+    "CreatedAt": "2023-09-27T08:18:23.8030684Z",
+    "UpdatedAt": null
+  }
+]

@@ -12,7 +12,6 @@ namespace GroceryDelivery.Service.DTOs
         public long ProductId { get; set; }
         public long CustomerId { get; set; }
         public long DriverId { get; set; }
-        public Product Product {  get; set; }
         public string Location { get; set; }
         public decimal TotalAmount { get; set; }
 

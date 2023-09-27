@@ -1,0 +1,26 @@
+[
+  {
+    "ProductId": 1,
+    "CustomerId": 7,
+    "DriverId": 1,
+    "Location": "sebzor",
+    "DeliveryTime": "2023-09-27T07:25:23.9566625Z",
+    "TotalAmount": 5.0,
+    "TotalFee": 22500.0,
+    "Id": 1,
+    "CreatedAt": "2023-09-27T12:25:23.9572902+05:00",
+    "UpdatedAt": null
+  },
+  {
+    "ProductId": 3,
+    "CustomerId": 7,
+    "DriverId": 1,
+    "Location": "haad",
+    "DeliveryTime": "2023-09-27T07:45:21.9684896Z",
+    "TotalAmount": 50.0,
+    "TotalFee": 15000.0,
+    "Id": 2,
+    "CreatedAt": "2023-09-27T12:45:21.9686047+05:00",
+    "UpdatedAt": null
+  }
+]
